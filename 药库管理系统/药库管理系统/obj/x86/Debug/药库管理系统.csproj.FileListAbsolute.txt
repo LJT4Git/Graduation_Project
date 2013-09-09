@@ -14,3 +14,13 @@ F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pdb
 D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.exe
 D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pdb
+F:\Graduation_Project\药库管理系统\药库管理系统\bin\Debug\药库管理系统.exe
+F:\Graduation_Project\药库管理系统\药库管理系统\bin\Debug\药库管理系统.pdb
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Form1.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Form2.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Login.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pass.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Properties.Resources.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.write.1.tlog
