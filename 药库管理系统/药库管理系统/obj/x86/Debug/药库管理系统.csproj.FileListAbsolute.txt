@@ -12,3 +12,5 @@ D:\BIYE\药库管理系统测试\药库管理系统\药库管理系统\obj\x86\D
 D:\BIYE\药库管理系统测试\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Login.resources
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.exe
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pdb
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.exe
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pdb
