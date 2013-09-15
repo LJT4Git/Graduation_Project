@@ -58,7 +58,7 @@ namespace 药库管理系统
             if (dr.HasRows)
             {
                 this.Visible = false;//当前窗口不可见      
-                new Form2().Show();//form2显示new Form2().Show();
+                new MainForm().Show();//form2显示new Form2().Show();
             }
             else
             {
