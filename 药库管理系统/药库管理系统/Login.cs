@@ -14,6 +14,7 @@ namespace 药库管理系统
 {
     public partial class Login : Form
     {
+        public static string psw;
         SqlConnection conn;
         SqlCommand cm;
         SqlDataReader dr;
@@ -49,9 +50,11 @@ namespace 药库管理系统
             byte[] result = Encoding.Default.GetBytes(this.Psw.Text.Trim());    //Psw为输入密码的文本框
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] output = md5.ComputeHash(result);
-            this.textBox3.Text = BitConverter.ToString(output).Replace("-", "");  //textbox3为输出加密文本的文本框
+            //this.textBox3.Text = BitConverter.ToString(output).Replace("-", "");  //textbox3为输出加密文本的文本框
+          string   p = BitConverter.ToString(output).Replace("-", "");  //textbox3为输出加密文本的文本框
             conn = new SqlConnection(SQL.conStr);
-            string sql = "select * from login where userID='"+userName.Text.Trim()+"'and pw='"+textBox3.Text.Trim()+"'and sele='"+sel.Text.Trim()+"'";
+            //string sql = "select * from login where userID='"+userName.Text.Trim()+"'and pw='"+textBox3.Text.Trim()+"'and sele='"+sel.Text.Trim()+"'";
+          string sql = "select * from login where userID='"+userName.Text.Trim()+"'and pw='"+p+"' and sele='"+sel.Text.Trim()+"'";
             cm = new SqlCommand(sql,conn);
             conn.Open();
             dr = cm.ExecuteReader();

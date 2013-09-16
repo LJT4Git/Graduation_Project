@@ -7,13 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace 药库管理系统
+namespace 药库管理系统.PharmacyManage
 {
-    public partial class Form3 : Form
+    public partial class Addnew1 : Form
     {
-        public Form3()
+        public Addnew1()
         {
             InitializeComponent();
+        }
+
+        private void Addnew1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

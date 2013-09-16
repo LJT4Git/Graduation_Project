@@ -35,7 +35,6 @@
             this.Psw = new System.Windows.Forms.TextBox();
             this.submit = new System.Windows.Forms.Button();
             this.reset = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.sel = new System.Windows.Forms.ComboBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
@@ -96,14 +95,6 @@
             this.reset.UseVisualStyleBackColor = true;
             this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(464, 85);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 21);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Visible = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -130,7 +121,6 @@
             this.ClientSize = new System.Drawing.Size(634, 362);
             this.Controls.Add(this.sel);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.submit);
             this.Controls.Add(this.Psw);
@@ -153,7 +143,6 @@
         private System.Windows.Forms.TextBox Psw;
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Button reset;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox sel;
         private System.Windows.Forms.ToolTip toolTip1;

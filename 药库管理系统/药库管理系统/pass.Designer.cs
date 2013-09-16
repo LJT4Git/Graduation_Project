@@ -33,6 +33,7 @@
             this.submit = new System.Windows.Forms.Button();
             this.Psw = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox3
@@ -80,11 +81,22 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "通行证";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(513, 39);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(47, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "清空";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 362);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.submit);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.TextBox Psw;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }

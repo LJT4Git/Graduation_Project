@@ -16,7 +16,7 @@ namespace 药库管理系统
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Application.Run(new pass());
-           Application.Run(new MainForm());
+            Application.Run(new MainForm());
         }
     }
 }

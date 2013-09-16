@@ -24,3 +24,15 @@ F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.read.1.tlog
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.write.1.tlog
 F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.MainForm.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\bin\Debug\药库管理系统.exe
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\bin\Debug\药库管理系统.pdb
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Form1.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.MainForm.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Login.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.pass.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.Properties.Resources.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.INMedicine.resources
+D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.Addnew1.resources
