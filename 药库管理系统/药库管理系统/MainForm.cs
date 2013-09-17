@@ -36,10 +36,11 @@ namespace 药库管理系统
                 panel1.Dock = DockStyle.None;
                 panel1.Dock = DockStyle.Bottom;
                 button6.Dock = DockStyle.Bottom;
-                button7.Dock = DockStyle.Bottom;
+                button10.Dock = DockStyle.Bottom;
+            button7.Dock = DockStyle.Bottom;
                 button8.Dock = DockStyle.Bottom;
                 button9.Dock = DockStyle.Bottom;
-                button10.Dock = DockStyle.Bottom;
+                
                 btn_5();
                // panel1.BringToFront();
                 //button11.BringToFront();
