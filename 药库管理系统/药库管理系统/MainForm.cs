@@ -21,54 +21,7 @@ namespace 药库管理系统
             //button1.BackColor = System.Drawing.Color.Blue;
         }
 
-        private void button1_MouseMove(object sender, MouseEventArgs e)
-        {
-            //button1.Image = Image.FromFile(@"d:\My Documents\My Pictures\t2.jpg");
-            button1.BackColor = Color.FromArgb(243,248,193);
-            button1.FlatStyle = FlatStyle.Popup;
-        }
 
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            //button1.Image = Image.FromFile(@"d:\My Documents\My Pictures\t3.jpg");
-            button1.BackColor = System.Drawing.Color.Transparent;
-            button1.FlatStyle = FlatStyle.Flat;
-        }
-        private void button4_MouseLeave(object sender, EventArgs e)
-        {
-            button4.BackColor = System.Drawing.Color.Transparent;
-            button4.FlatStyle = FlatStyle.Flat;
-        }
-
-        private void button4_MouseMove(object sender, MouseEventArgs e)
-        {
-            button4.BackColor = Color.FromArgb(243, 248, 193);
-            button4.FlatStyle = FlatStyle.Popup;
-        }
-
-        private void button2_MouseMove(object sender, MouseEventArgs e)
-        {
-            button2.BackColor = Color.FromArgb(243, 248, 193);
-            button2.FlatStyle = FlatStyle.Popup;
-        }
-
-        private void button2_MouseLeave(object sender, EventArgs e)
-        {
-            button2.BackColor = System.Drawing.Color.Transparent;
-            button2.FlatStyle = FlatStyle.Flat;
-        }
-
-        private void button3_MouseLeave(object sender, EventArgs e)
-        {
-            button3.BackColor = System.Drawing.Color.Transparent;
-            button3.FlatStyle = FlatStyle.Flat;
-        }
-
-        private void button3_MouseMove(object sender, MouseEventArgs e)
-        {
-            button3.BackColor = Color.FromArgb(243, 248, 193);
-            button3.FlatStyle = FlatStyle.Popup;
-        }
         private void MainForm_Load(object sender, EventArgs e)
         {
             // ResetButton();  //reset button
@@ -323,5 +276,124 @@ namespace 药库管理系统
             button9.Dock = DockStyle.None;
             button10.Dock = DockStyle.None;
         }
+
+
+        #region 修改按钮控件鼠标经过的效果以及效果通用函数
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
+            ButtonMove(button1);
+            //button1.BackColor = Color.FromArgb(243,248,193);
+            //button1.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+
+            ButtonLeave(button1);
+        }
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonLeave(button4);
+        }
+
+        private void button4_MouseMove(object sender, MouseEventArgs e)
+        {
+            ButtonMove(button4);
+        }
+
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {
+            ButtonMove(button2);
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonLeave(button2);
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonLeave(button3);
+        }
+
+        private void button3_MouseMove(object sender, MouseEventArgs e)
+        {
+            ButtonMove(button3);
+        }
+
+        private void button11_MouseMove(object sender, MouseEventArgs e)
+        {
+            button11.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button11_MouseLeave(object sender, EventArgs e)
+        {
+            button11.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void button12_MouseMove(object sender, MouseEventArgs e)
+        {
+            button12.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button12_MouseLeave(object sender, EventArgs e)
+        {
+            button12.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void button13_MouseLeave(object sender, EventArgs e)
+        {
+            button13.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void button13_MouseMove(object sender, MouseEventArgs e)
+        {
+            button13.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button14_MouseMove(object sender, MouseEventArgs e)
+        {
+            button14.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button14_MouseLeave(object sender, EventArgs e)
+        {
+            button14.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void button15_MouseMove(object sender, MouseEventArgs e)
+        {
+            button15.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button15_MouseLeave(object sender, EventArgs e)
+        {
+            button15.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void button16_MouseMove(object sender, MouseEventArgs e)
+        {
+            button16.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void button16_MouseLeave(object sender, EventArgs e)
+        {
+            button16.FlatStyle = FlatStyle.Flat;
+        }
+        
+        //鼠标经过控件时触发效果
+        private void ButtonMove(Button buttonName)
+        {
+            buttonName.BackColor = Color.FromArgb(243, 248, 193);
+            buttonName.FlatStyle = FlatStyle.Popup;
+        }
+
+        //鼠标离开控件时恢复原状
+        private void ButtonLeave(Button buttonName)
+        {
+            buttonName.BackColor = System.Drawing.Color.Transparent;
+            buttonName.FlatStyle = FlatStyle.Flat;
+        }
+        #endregion
     }
 }

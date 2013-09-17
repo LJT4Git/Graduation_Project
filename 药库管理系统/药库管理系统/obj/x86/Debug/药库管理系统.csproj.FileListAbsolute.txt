@@ -36,3 +36,5 @@ D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86
 D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.INMedicine.resources
 D:\毕业设计\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.Addnew1.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.Addnew1.resources
+F:\Graduation_Project\药库管理系统\药库管理系统\obj\x86\Debug\药库管理系统.PharmacyManage.INMedicine.resources

@@ -52,6 +52,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -61,7 +62,6 @@
             this.button11 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -128,7 +128,7 @@
             this.toolStripMenuItem5});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1016, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1016, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -139,25 +139,25 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem4});
             this.asToolStripMenuItem.Name = "asToolStripMenuItem";
-            this.asToolStripMenuItem.Size = new System.Drawing.Size(27, 21);
+            this.asToolStripMenuItem.Size = new System.Drawing.Size(23, 20);
             this.asToolStripMenuItem.Text = "1";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem2.Text = "1-01";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem3.Text = "1-02";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem4.Text = "1-03";
             // 
             // toolStripMenuItem1
@@ -166,19 +166,19 @@
             this.toolStripMenuItem6,
             this.toolStripMenuItem7});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(27, 21);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(23, 20);
             this.toolStripMenuItem1.Text = "2";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem6.Text = "2-01";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem7.Text = "2-02";
             // 
             // toolStripMenuItem5
@@ -188,25 +188,25 @@
             this.toolStripMenuItem10,
             this.toolStripMenuItem11});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(27, 21);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(23, 20);
             this.toolStripMenuItem5.Text = "3";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem9.Text = "3-01";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem10.Text = "3-02";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(94, 22);
             this.toolStripMenuItem11.Text = "3-03";
             // 
             // button4
@@ -309,6 +309,16 @@
             this.panel2.Size = new System.Drawing.Size(845, 583);
             this.panel2.TabIndex = 7;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(12, 425);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(808, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "我的后台代码有很多注释，可能对于大家看后台代码有些麻烦，但是不要删掉我的，因为还存在一些问题需要改的";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -326,7 +336,7 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button16.BackColor = System.Drawing.Color.Transparent;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -338,10 +348,12 @@
             this.button16.Text = "button16";
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.MouseLeave += new System.EventHandler(this.button16_MouseLeave);
+            this.button16.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button16_MouseMove);
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button15.BackColor = System.Drawing.Color.Transparent;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -353,10 +365,12 @@
             this.button15.Text = "button15";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.MouseLeave += new System.EventHandler(this.button15_MouseLeave);
+            this.button15.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button15_MouseMove);
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button14.BackColor = System.Drawing.Color.Transparent;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -368,10 +382,12 @@
             this.button14.Text = "button14";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.MouseLeave += new System.EventHandler(this.button14_MouseLeave);
+            this.button14.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button14_MouseMove);
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button13.BackColor = System.Drawing.Color.Transparent;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -383,10 +399,12 @@
             this.button13.Text = "button13";
             this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.MouseLeave += new System.EventHandler(this.button13_MouseLeave);
+            this.button13.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button13_MouseMove);
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button12.BackColor = System.Drawing.Color.Transparent;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -398,10 +416,12 @@
             this.button12.Text = "button12";
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.MouseLeave += new System.EventHandler(this.button12_MouseLeave);
+            this.button12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button12_MouseMove);
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button11.BackColor = System.Drawing.Color.Transparent;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -413,6 +433,8 @@
             this.button11.Text = "button11";
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.MouseLeave += new System.EventHandler(this.button11_MouseLeave);
+            this.button11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button11_MouseMove);
             // 
             // panel4
             // 
@@ -441,16 +463,6 @@
             this.groupBox1.Size = new System.Drawing.Size(160, 583);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(12, 425);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(808, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "我的后台代码有很多注释，可能对于大家看后台代码有些麻烦，但是不要删掉我的，因为还存在一些问题需要改的";
             // 
             // MainForm
             // 
